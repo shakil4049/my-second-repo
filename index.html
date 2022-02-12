@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My second repo</title>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .div-space {
+        margin-top: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <form action="index.html" method="GET">
+      <div class="loginbox">
+        <div class="div-space">
+          <h1>Create an account</h1>
+          <h3>Fill up your information</h3>
+        </div>
+        <div class="div-space">
+          <input type="text" name="name" placeholder="Name" />
+        </div>
+        <div class="div-space">
+          <input type="text" name="email" placeholder="Email" />
+        </div>
+        <div class="div-space">
+          <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="div-space">
+          <input
+            type="password"
+            name="confirm password"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <div class="div-space">
+          <input type="reset" name="Reset" />
+        </div>
+        <div class="div-space">
+          <input type="submit" name="Submit" />
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
