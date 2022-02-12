@@ -1,8 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: blanchedalmond;
   font-family: sans-serif;
+  background-image: url(2.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat;
 }
 .loginbox {
   width: 320px;
